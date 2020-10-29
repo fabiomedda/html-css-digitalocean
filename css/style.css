@@ -7,6 +7,10 @@
   color: rgb(0, 106, 255);
 }
 
+.text_dark_grey{
+  color: #1a1a1a;
+}
+
 
 /* /color */
 
@@ -24,14 +28,13 @@
   padding: 12px 0;
 }
 
-#navbar .nav_central{
-  margin-left: 100px;
-}
-
 #navbar li a{
   color: #031b4f;
   font-weight: 600;
   font-size: 16px;
+  padding-left: 7px;
+  padding-right: 7px;
+
 }
 
 #navbar li a:hover{
@@ -53,6 +56,7 @@
 
 /* /navbar */
 
+
 /* header */
 
 #header{
@@ -71,7 +75,7 @@
 
 #header .box_left span{
   color: white;
-  font-size: 24px;
+  font-size: 23px;
 }
 
 #header .box_right{
@@ -81,9 +85,41 @@
   text-align: center;
 }
 
+#header .box_right h2:first-of-type{
+  color: #031b4f;
+  font-weight: 600;
+}
+
+#header .box_right h2:last-of-type{
+  color: rgb(0, 106, 255);
+  font-weight: 600;
+}
+
+#header .box_right input{
+  height: 45px;
+  border-color: #eee;
+  box-shadow: none;
+}
+
+#header .box_right input::placeholder,
+#header .box_right .btn_google span{
+  color: #1a1a1a;
+}
+
 #header .box_right button{
   width: 100%;
   margin: 5px 0;
+  border-color: #eee;
+  box-shadow: none;
+}
+
+#header .box_right form > button{
+  background-color: #0065f2;
+  color: white;
+}
+
+#header .box_right form > button:hover{
+  background-color: rgb(22, 51, 255);
 }
 
 #header .box_right .btn_google{
@@ -97,3 +133,40 @@
 }
 
 /* /header */
+
+
+/* main */
+
+/* section 1 logos */
+
+#sect_1_logos{
+  background-color: rgb(243, 245, 249);
+  padding: 60px 0;
+  text-align: center;
+}
+
+#sect_1_logos .card{
+  height: 150px;
+  vertical-align: middle;
+}
+
+#sect_1_logos img{
+  height: 100%;
+  width: 49%;
+}
+
+#sect_1_logos a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #006aff;
+}
+
+#sect_1_logos a:hover{
+  text-decoration: none;
+  color: #1633ff;
+}
+
+/* /section 1 logos */
+
+
+/* /main */
