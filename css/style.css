@@ -176,6 +176,73 @@ body{
 /* /section 1 logos */
 
 
+/* section 2 Deploy */
+
+#deploy{
+  padding: 50px 0;
+}
+
+#deploy .container > h2{
+  font-size: 38px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+#deploy .container > p{
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #5b6987;
+}
+
+#deploy .box_left div{
+  margin-left: 70px;
+  border-left: 1px solid rgba(3, 27, 78, 0.6);
+  font-size: 20px;
+  color: rgba(3, 27, 78, 0.6);
+  padding: 15px 10px;
+}
+
+#deploy .box_left div span{
+  cursor: pointer;
+}
+
+#deploy .box_left, #deploy .box{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#deploy .box > h4{
+  padding: 10px 0;
+  font-size: 20px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+#deploy .box > p{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #5b6987;
+}
+
+/* media query phone #deploy*/
+@media screen and (max-width: 768px){
+  #deploy .row{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #deploy .box_left div{
+    margin-left: 10px;
+  }
+
+  #deploy .container > h2, #deploy .container > p{
+    padding-left: 20px;
+  }
+}
+
+/* /section 2 Deploy */
+
+
 /* /main */
 
 
