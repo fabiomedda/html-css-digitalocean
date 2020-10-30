@@ -377,9 +377,60 @@ body{
   text-decoration: none;
 }
 
-
-
 /* /section 4 features */
+
+
+/* section 5 service */
+#service{
+  background-color: #00229d;
+  color: white;
+  padding: 50px 0;
+}
+
+#service h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#service .box{
+  padding: 10px;
+}
+
+#service .box > div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#service .box > div:not(:last-of-type){
+  border-bottom: 1px solid white;
+}
+
+#service span{
+ color: #b3c2e7;
+}
+
+#service .col-xs-3{
+  text-align: right;
+}
+
+#service .box a{
+  color: #006aff;
+}
+
+#service .box a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #006aff;
+}
+
+#service .box a:hover{
+  color: #1633ff;
+  text-decoration: none;
+}
+
+
+/* /section 5 service */
 
 
 /* /main */
