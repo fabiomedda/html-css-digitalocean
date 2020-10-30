@@ -252,21 +252,72 @@ body{
   background-color: rgb(243, 245, 249);
 }
 
+#designed h2{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 38px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+#designed p{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #5b6987;
+}
+
 #designed .card_designed img{
-  width: 90%;
+  width: 55%;
   height: auto;
 }
 
 #designed .card_designed::before{
-  content: "\f105";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f104";
+  font-size: 45px;
+  padding-right: 15px;
 }
 
 #designed .card_designed::after{
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  display: inline-block;
   font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  font-size: 45px;
+  padding-left: 15px;
+}
+
+
+/* media query angle none */
+@media screen and (max-width: 768px){
+  #designed .card_designed::after,
+  #designed .card_designed::before{
+    display: none;
+  }
+}
+/* /media query angle none */
+
+
+#designed span{
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #031b4e;
 }
 
 #designed .pal_designed{
@@ -283,6 +334,52 @@ body{
 }
 
 /* /section 3 designed */
+
+/* section 4 features */
+
+#features{
+  padding: 50px 0;
+}
+
+#features h2{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 38px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+#features .box{
+  padding-bottom: 50px;
+}
+
+#features .box h4{
+  padding: 10px 0;
+  font-size: 20px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+#features .box p{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #5b6987;
+}
+
+#features .box a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #006aff;
+}
+
+#features .box a:hover{
+  color: #1633ff;
+  text-decoration: none;
+}
+
+
+
+/* /section 4 features */
 
 
 /* /main */
