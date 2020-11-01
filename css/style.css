@@ -2,24 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-/* color */
-.text_dark_blue{
-  color: #031b4f;
-}
-
-.text_light_blue{
-  color: rgb(0, 106, 255);
-}
-
-.text_dark_grey{
-  color: #1a1a1a;
-}
-
-
-/* /color */
-
 /* navbar */
-
 #navbar{
   padding: 10px 0;
 }
@@ -60,12 +43,10 @@ body{
   color: white;
   background-color: rgb(0, 106, 255);
 }
-
 /* /navbar */
 
 
 /* header */
-
 #header{
   margin-top: 72px;
   padding: 70px 0;
@@ -138,14 +119,11 @@ body{
   position: absolute;
   left: 2%;
 }
-
 /* /header */
 
 
 /* main */
-
 /* section 1 logos */
-
 #sect_1_logos{
   background-color: rgb(243, 245, 249);
   padding: 60px 0;
@@ -172,12 +150,10 @@ body{
   text-decoration: none;
   color: #1633ff;
 }
-
 /* /section 1 logos */
 
 
 /* section 2 Deploy */
-
 #deploy{
   padding: 50px 0;
 }
@@ -224,8 +200,8 @@ body{
   color: #5b6987;
 }
 
-/* media query phone #deploy*/
 
+/* media query phone #deploy*/
 @media screen and (max-width: 768px){
   #deploy .row{
     padding-left: 10px;
@@ -240,13 +216,11 @@ body{
     padding-left: 20px;
   }
 }
-
 /* /media query phone #deploy*/
 /* /section 2 Deploy */
 
 
 /* section 3 designed */
-
 #designed{
   padding: 50px 0;
   background-color: rgb(243, 245, 249);
@@ -332,11 +306,10 @@ body{
 #designed .pal_designed:first-of-type{
   background-color: #0068ff;
 }
-
 /* /section 3 designed */
 
-/* section 4 features */
 
+/* section 4 features */
 #features{
   padding: 50px 0;
 }
@@ -376,13 +349,12 @@ body{
   color: #1633ff;
   text-decoration: none;
 }
-
 /* /section 4 features */
 
 
 /* section 5 service */
 #service{
-  background-color: #00229d;
+  background-image: linear-gradient(180deg, #0129b6, #030e6a);
   color: white;
   padding: 50px 0;
 }
@@ -429,11 +401,270 @@ body{
   text-decoration: none;
 }
 
-
 /* /section 5 service */
 
 
+/* section 6 development */
+
+#development{
+  padding: 50px 0;
+  background-color: rgb(243, 245, 249);
+}
+
+#development h2{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 38px;
+  color: #031b4e;
+  font-weight: 600;
+}
+
+
+#development .card_development{
+  background-color: white;
+  display: inline-block;
+  width: 55%;
+  padding: 35px 15px;
+  position: relative;
+}
+
+#development .card_development img{
+  padding: 30px 0;
+  width: 60%;
+  min-width: 125px;
+}
+
+#development .card_development p{
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #5b6987;
+}
+
+#development .card_development strong{
+  display: block;
+  color: #031b4e;
+  font-size: 18px;
+}
+
+#development .card_development span{
+  display: block;
+  color: #031b4e;
+  font-size: 16px;
+}
+
+#development .card_development a{
+  display: block;
+  margin: 25px 0;
+  font-size: 18px;
+  color: #006aff;
+}
+
+#development .card_development a:hover{
+  color: #1633ff;
+  text-decoration: none;
+}
+
+#development .card_development > i{
+  font-weight: 900;
+  font-size: 45px;
+}
+
+#development .card_development > i:first-of-type{
+  position: absolute;
+  left: -45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#development .card_development > i:last-of-type{
+  position: absolute;
+  right: -45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* media query angle none */
+@media screen and (max-width: 768px){
+  #development .card_development > i{
+    display: none;
+  }
+}
+/* /media query angle none */
+
+#development .pal_designed{
+  display: inline-block;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #0068ff;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#development .pal_designed:first-of-type{
+  background-color: #0068ff;
+}
+
+/* /section 6 development */
+
+/* section 7 get started */
+#get_started{
+  background-image: linear-gradient(180deg, #0129b6, #030e6a);
+  padding: 60px 0;
+}
+
+#get_started h2{
+  color: white;
+  font-size: 38px;
+  padding-bottom: 25px;
+}
+
+#get_started button{
+  font-size: 18px;
+  color: #006aff;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+#get_started button:hover{
+  color: #1633ff;
+  text-decoration: none;
+  background-color: rgba(225,225,225,0.9);
+}
+
+/* /section 7 get started */
 /* /main */
+
+
+/* footer */
+#site_footer{
+  background-color: #020d5e;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+#site_footer .box_left, #site_footer .box_right{
+  margin-bottom: 40px;
+}
+
+#site_footer .box_left p{
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  color: rgba(255, 255, 255,  0.7);
+}
+
+#site_footer .box_left span{
+  font-size: 16px;
+  color: rgba(255, 255, 255,  0.5);
+  margin-bottom: 20px;
+  display: block;
+}
+
+#site_footer .box_left a{
+  color: rgba(255, 255, 255,  0.7);
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+#site_footer .box_left a:hover{
+  color: white;
+}
+
+#site_footer .box_right h4{
+  color: white;
+  font-size: 21px;
+}
+
+#site_footer .box_right ul{
+  padding: 0;
+}
+
+#site_footer .box_right li{
+  list-style: none;
+}
+
+#site_footer .box_right li a{
+  font-size: 18px;
+  line-height: 1.8em;
+  color: rgba(255, 255, 255,  0.7);
+}
+
+#site_footer .box_right li a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+/* /footer */
+
+/* squalo */
+
+#squalo{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+#squalo img{
+  width: 100%;
+  height: 100%;
+}
+
+#scritta{
+  width: 315px;
+  position: fixed;
+  bottom: 30px;
+  right: 90px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#scritta p{
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+  color: #011747;
+  font-weight: 600;
+}
+
+/* squalo */
+
+
+/* media query per squalo */
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+  #squalo{
+    bottom: 110px;
+    left: 20px;
+  }
+
+  #scritta{
+    bottom: 30px;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  #squalo{
+    bottom: 110px;
+    right: 20px;
+  }
+
+  #scritta{
+    bottom: 30px;
+    right: 20px;
+  }
+}
+
+/* /media query per squalo */
 
 
 /* media query nav not collapse */
