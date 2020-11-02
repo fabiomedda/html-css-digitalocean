@@ -620,9 +620,27 @@ body{
   width: 315px;
   position: fixed;
   bottom: 30px;
-  right: 90px;
+  right: 95px;
   background-color: white;
   border-radius: 5px;
+}
+
+#scritta div{
+	position: relative;
+}
+
+#scritta div:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-top: 2px;
+	margin-right: -8px;
 }
 
 #scritta p{
@@ -649,6 +667,18 @@ body{
     bottom: 30px;
     left: 20px;
   }
+
+  #scritta div:after {
+	  top: 0;
+	  left: 50%;
+	  width: 0;
+	  height: 0;
+	  border: 8px solid transparent;
+	  border-bottom-color: white;
+	  border-top: 0;
+	  margin-left: -138px;
+	  margin-top: -8px;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -661,6 +691,18 @@ body{
   #scritta{
     bottom: 30px;
     right: 20px;
+  }
+
+  #scritta div:after {
+	  top: 0;
+	  left: 50%;
+	  width: 0;
+	  height: 0;
+	  border: 8px solid transparent;
+	  border-bottom-color: white;
+	  border-top: 0;
+	  margin-left: 128px;
+	  margin-top: -8px;
   }
 }
 
